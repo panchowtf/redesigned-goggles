@@ -22,6 +22,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -44,17 +45,32 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 </head>
-<body>
+<body style="background-image:url(../images/imagen_muestra.jpg); background-size:100% 100%;">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column">
-        <h1>Titulo</h1>
-      </div>
+  <div class="menu" data-0="height:0px;" data-100="height:120px;">
+    <div class="container">
+     
+    <ul data-0="opacity:0 ;" data-100="opacity:1;">
+      <li><a href="">Inicio</a></li>
+      <li><a href="">Sistemas de descanso</a></li>
+      <li><a href="">Simplemente perfecto</a></li>
+      <li><a href="">Contacto</a></li>
+    </ul>
+     <a href="inicio.html"><img class="logo" src="images/logo.png" data-0="height:400px;" data-100="height:100px;"></a>
     </div>
   </div>
+    <div class="row" style="height:2000px;" >
+    
+    </div>
+  </div>
+  <!--Scrpipts and stuff
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script type="text/javascript" src="scripts/skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
