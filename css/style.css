@@ -1,0 +1,5 @@
+/*Estilo personalizado*/
+.navbar{height: 100px;}
+.navbar-default .navbar-nav{height: 100px;padding-top:30px;font-size:1.5em;}
+.brand-logo{display: block; padding: 5px 0 5px 0;height: 100px;}
+div.jumbotron {background-image: url("../images/imagen_muestra.jpg");background-repeat: no-repeat;padding: 0;}
