@@ -33,7 +33,7 @@ class gatorconf {
 				'db_host' => 'localhost',
 				'db_username' => 'root',
 				'db_password' => 'root',
-				'db_database' => 'main',
+				'db_database' => 'ususpring',
 
 				// main file repository∫
 				// this is also a repository for users without specific homedir
@@ -46,10 +46,10 @@ class gatorconf {
 				'max_filesize' => 2097152, // 2MB
 
 				// allow users to sign up (true/false)
-				'allow_signup' => true,
+				'allow_signup' => false,
 				
 				// use signup activation via email (true/false)
-				'signup_use_activation' => true,
+				'signup_use_activation' => false,
 
 				// default permissions given to the users after initial signup
 				// notation: 'r' - read only, 'ru' - read & upload, 'rwu' - read, write & upload
@@ -80,7 +80,7 @@ class gatorconf {
 				'account_email_text' => 'Porfavor haga clic en el link de abajo para acceder a tu cuenta: ',
 
 				// users can change their password (true/false)
-				'allow_change_password' => true,
+				'allow_change_password' => false,
 				
 				// enable forgotten password procedure (true/false)
 				'enable_password_recovery' => true,
@@ -101,7 +101,7 @@ class gatorconf {
 				'mail_link_subject' => 'Hay archivos para ti',
 
 				// Use goo.gl URL shortener (true/false). This requires cURL php support.
-				'use_googl_shorturl' => true,
+				'use_googl_shorturl' => false,
 				// get goo.gl API key from: http://code.google.com/apis/console/
 				'googl_shorturl_api_key' => 'AIzaSyC0OkJ9Svm7PDtjN_fRPatZ4fqeUquYLj8',
 
@@ -124,13 +124,13 @@ class gatorconf {
 
 				// use zip functions (true/false)
 				// zip extension must be enabled on server (see http://php.net/manual/en/book.zip.php)
-				'use_zip' => true,
+				'use_zip' => false,
 
 				// files can be edited (true/false)
-				'allow_edit_files' => true,
+				'allow_edit_files' => false,
 
 				// files/folders can be renamed (true/false)
-				'allow_rename_files' => true,
+				'allow_rename_files' => false,
 
 				// show top-bar (true/false)
 				'show_top_auth_bar' => true,
@@ -146,7 +146,7 @@ class gatorconf {
 				'encrypt_url_actions' => true,
 
 				// allow guest account (true/false)
-				'allow_guests' => true,
+				'allow_guests' => false,
 				
 				// use authentication module (true/false)
 				// WARNING: if you set this to false anyone can see, change or delete your files without need to login
