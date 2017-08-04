@@ -1,5 +1,35 @@
-/*Estilo personalizado*/
-.navbar{height: 100px;}
-.navbar-default .navbar-nav{height: 100px;padding-top:30px;font-size:1.5em;}
-.brand-logo{display: block; padding: 5px 0 5px 0;height: 100px;}
-div.jumbotron {background-image: url("../images/imagen_muestra.jpg");background-repeat: no-repeat;padding: 0;}
+
+body {
+    padding-top: 50px;
+}
+
+.puntos {
+    font-weight: bold;
+}
+
+.jumbo {
+    color: white;
+}
+
+
+.mobileh {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1974a7+1,1974a7+85,003383+85,003383+100 */
+    background: #1974a7;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #1974a7 1%, #1974a7 85%, #003383 85%, #003383 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1974a7 1%, #1974a7 85%, #003383 85%, #003383 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1974a7 1%, #1974a7 85%, #003383 85%, #003383 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1974a7', endColorstr='#003383', GradientType=1);
+    /* IE6-9 */
+    padding: 15px;
+    color: white;
+    width: 100%;
+}
+@media (min-width: 687px) and (max-width: 991px){
+    .logo{
+        text-align: center;
+    }
+}
